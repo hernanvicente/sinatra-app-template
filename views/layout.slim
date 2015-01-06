@@ -3,16 +3,22 @@ html.no-js[lang="en"]
   head
     meta charset="UTF-8" /
     meta content="width=device-width, initial-scale=1" name="viewport" /
+    link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"
     link rel="stylesheet" href="/stylesheets/app.css"
     == js :modernizr
 
-  title Sinatra App
+  title Irmgard Brennauer | Heilpraktikerin | Enegetische Verfahren
 
   body
-    .row
+    .row.full-width.header
+      .small-12.columns.text-center
+        a href="/"
+          img src="/images/logo.png"
+          h1 Irmgard Brennauer | Heilpraktikerin
+          h2 Energetische Verfahren
+    .row.full-width.menu
       .small-12.columns
-        h1
-          | Sinatra running Foundation with Compass
+        == slim :'_menu'
     == yield
 
     .row
@@ -20,11 +26,10 @@ html.no-js[lang="en"]
         .row
           .small-6.columns
             p.text-left
-              | © App name
+              | © 2014 Irmgard Brennauer | Heilpraktikerin | Enegetische Verfahren
           .small-6.columns
             p.text-right
-              App footer's information some@email.com
+              span irmgard.brennauer@gmail.com
 
     == js :libs
     == js :application
-

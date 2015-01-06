@@ -2,7 +2,6 @@ source "https://rubygems.org"
 
 ruby '2.1.5'
 
-gem 'font-awesome-sass'
 gem 'foundation'
 gem 'haml'
 gem 'rack-livereload'
