@@ -1,3 +1,6 @@
+a{
+  color: #ca0026;
+}
 p{
   text-align: justify;
 }
@@ -11,9 +14,6 @@ p{
   background-color: #FFF6E1;
   height: 20rem;
   padding: 2rem 0 2rem 0;
-  //position: fixed;
-  //top: 0;
-  //z-index: 10;
   h1{
     color: #CA0026;
     font-weight: 400;
@@ -33,9 +33,27 @@ p{
 }
 
 .menu{
-  background: #CA0026;
+  background: #fff;
+  border-bottom: 1px solid #efefef;
   color: #efefef;
   margin-bottom: 5rem;
+  ul{
+    display: table;
+     margin: 0 auto;
+     li{
+      a{
+        color: #737373;
+        font-size: 1.05rem;
+        &:hover{
+          color: #ca0026;
+        }
+      }
+     }
+  }
+}
+
+.sub-nav li.active a{
+  background-color: #ca0026;
 }
 
 .kosten{

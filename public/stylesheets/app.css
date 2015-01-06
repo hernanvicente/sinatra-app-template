@@ -1,3 +1,5 @@
+/* Raleway from google fonts http://www.google.com/fonts#UsePlace:use/Collection:Raleway */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,400|Raleway:500,700,400,300);
 /* line 347, ../../assets/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.4.7/";
@@ -60,11 +62,11 @@ body {
 
 /* line 396, ../../assets/bower_components/foundation/scss/foundation/components/_global.scss */
 body {
-  background: white;
-  color: #222222;
+  background: #fff6e1;
+  color: #404040;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -1621,7 +1623,7 @@ select {
   color: #222222;
   padding: 1rem;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", Roboto, Arial, sans-serif;
   font-size: 1rem;
 }
 /* line 143, ../../assets/bower_components/foundation/scss/foundation/components/_accordion.scss */
@@ -2328,7 +2330,7 @@ button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -4267,7 +4269,7 @@ select {
   border-color: #cccccc;
   padding: 0.5rem;
   font-size: 0.875rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", Roboto, Arial, sans-serif;
   color: rgba(0, 0, 0, 0.75);
   line-height: normal;
   border-radius: 0;
@@ -4885,7 +4887,7 @@ kbd {
 /* line 91, ../../assets/bower_components/foundation/scss/foundation/components/_labels.scss */
 .label {
   font-weight: normal;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", Roboto, Arial, sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -5464,7 +5466,7 @@ ul.pagination li {
   color: #eeeeee;
   font-weight: normal;
   font-size: 1rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", Roboto, Arial, sans-serif;
 }
 /* line 143, ../../assets/bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .price {
@@ -5474,7 +5476,7 @@ ul.pagination li {
   color: #333333;
   font-weight: normal;
   font-size: 2rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", Roboto, Arial, sans-serif;
 }
 /* line 144, ../../assets/bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .description {
@@ -5859,7 +5861,7 @@ dialog[open] {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: outside;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", Roboto, Arial, sans-serif;
 }
 /* line 70, ../../assets/bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li {
@@ -5883,7 +5885,7 @@ dialog[open] {
 .side-nav li.active > a:first-child:not(.button) {
   color: #1cc7ff;
   font-weight: normal;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", Roboto, Arial, sans-serif;
 }
 /* line 93, ../../assets/bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.divider {
@@ -6053,7 +6055,7 @@ dialog[open] {
   display: inline;
   margin-left: 1rem;
   margin-bottom: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", Roboto, Arial, sans-serif;
   font-weight: normal;
   font-size: 0.875rem;
   color: #999999;
@@ -6330,7 +6332,7 @@ table tr td {
   background-color: #efefef;
   color: #222222;
   padding: 1rem 2rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", Roboto, Arial, sans-serif;
   font-size: 1rem;
 }
 /* line 49, ../../assets/bower_components/foundation/scss/foundation/components/_tabs.scss */
@@ -6768,7 +6770,7 @@ meta.foundation-mq-topbar {
   color: white;
   padding: 12px 0 12px 0;
   padding-left: 15px;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", Roboto, Arial, sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
   text-transform: none;
@@ -7594,10 +7596,10 @@ p aside {
 /* Default header styles */
 /* line 252, ../../assets/bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-weight: normal;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
   font-style: normal;
-  color: #222222;
+  color: #ca0026;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -7606,7 +7608,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 262, ../../assets/bower_components/foundation/scss/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-size: 60%;
-  color: #6f6f6f;
+  color: #ff375c;
   line-height: 0;
 }
 
@@ -7643,7 +7645,7 @@ h6 {
 /* line 276, ../../assets/bower_components/foundation/scss/foundation/components/_type.scss */
 .subheader {
   line-height: 1.4;
-  color: #6f6f6f;
+  color: #ff375c;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -7779,7 +7781,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222222;
+  color: #404040;
   cursor: help;
 }
 
@@ -7803,7 +7805,7 @@ blockquote {
 blockquote cite {
   display: block;
   font-size: 0.8125rem;
-  color: #555555;
+  color: #ff123e;
 }
 /* line 408, ../../assets/bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite:before {
@@ -7812,14 +7814,14 @@ blockquote cite:before {
 /* line 412, ../../assets/bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite a,
 blockquote cite a:visited {
-  color: #555555;
+  color: #ff123e;
 }
 
 /* line 418, ../../assets/bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #6f6f6f;
+  color: #ff375c;
 }
 
 /* Microformats */
@@ -9056,4 +9058,86 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important;
   }
+}
+/* line 1, ../../assets/stylesheets/scss/custom.scss */
+a {
+  color: #ca0026;
+}
+
+/* line 4, ../../assets/stylesheets/scss/custom.scss */
+p {
+  text-align: justify;
+}
+
+/* line 8, ../../assets/stylesheets/scss/custom.scss */
+.full-width {
+  max-width: 100%;
+  width: 100%;
+}
+
+/* line 13, ../../assets/stylesheets/scss/custom.scss */
+.header {
+  background-color: #FFF6E1;
+  height: 20rem;
+  padding: 2rem 0 2rem 0;
+}
+/* line 17, ../../assets/stylesheets/scss/custom.scss */
+.header h1 {
+  color: #CA0026;
+  font-weight: 400;
+}
+/* line 21, ../../assets/stylesheets/scss/custom.scss */
+.header h2 {
+  color: #E57C32;
+}
+
+/* line 26, ../../assets/stylesheets/scss/custom.scss */
+.sub-header {
+  background-image: url("/images/bg_praxis.jpg");
+  background-position: 0 18rem;
+  background-size: cover;
+  border-bottom: 2px solid #eee;
+  height: 18rem;
+}
+
+/* line 35, ../../assets/stylesheets/scss/custom.scss */
+.menu {
+  background: #fff;
+  border-bottom: 1px solid #efefef;
+  color: #efefef;
+  margin-bottom: 5rem;
+}
+/* line 40, ../../assets/stylesheets/scss/custom.scss */
+.menu ul {
+  display: table;
+  margin: 0 auto;
+}
+/* line 44, ../../assets/stylesheets/scss/custom.scss */
+.menu ul li a {
+  color: #737373;
+  font-size: 1.05rem;
+}
+/* line 47, ../../assets/stylesheets/scss/custom.scss */
+.menu ul li a:hover {
+  color: #ca0026;
+}
+
+/* line 55, ../../assets/stylesheets/scss/custom.scss */
+.sub-nav li.active a {
+  background-color: #ca0026;
+}
+
+/* line 60, ../../assets/stylesheets/scss/custom.scss */
+.kosten th {
+  font-size: 0.95rem;
+  width: 33.33%;
+}
+
+/* line 65, ../../assets/stylesheets/scss/custom.scss */
+.footer {
+  margin-top: 40px;
+}
+/* line 67, ../../assets/stylesheets/scss/custom.scss */
+.footer p {
+  font-size: 0.75rem;
 }
