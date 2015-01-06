@@ -11,3 +11,7 @@ require_relative 'config/load_assets'
 get '/' do
   slim :index
 end
+
+get '/impressum' do
+  slim :impressum
+end
