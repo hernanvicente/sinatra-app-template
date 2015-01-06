@@ -2,18 +2,21 @@ assets do
 
   serve '/js', :from => 'assets/javascripts'
   serve '/bower_components', from: 'assets/bower_components'
+  serve 'images', from: 'assets/images'
 
   js :modernizr, [
-    'assets/bower_components/modernizr/modernizr.js',
+    '/bower_components/modernizr/modernizr.js',
   ]
 
   js :libs, [
-    'assets/bower_components/jquery/dist/jquery.js',
-    'assets/bower_components/foundation/js/foundation.js'
+    '/bower_components/jquery/dist/jquery.js',
+    '/bower_components/foundation/js/foundation.js',
+    '/bower_components/foundation/js/foundation/foundation.magellan.js',
+    '/bower_components/skrollr/dist/skrollr.min.js'
   ]
 
   js :application, [
-    'assets/javascripts/app.js'
+    '/js/app.js'
     #'/js/jquery.js',
     #'/js/app.js'
     # You can also do this: 'js/*.js'
