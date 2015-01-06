@@ -2,9 +2,51 @@ p{
   text-align: justify;
 }
 
+.full-width{
+  max-width: 100%;
+  width: 100%;
+}
+
 .header{
-  padding: 40px 0;
-  h2{
+  background-color: #FFF6E1;
+  height: 20rem;
+  padding: 2rem 0 2rem 0;
+  //position: fixed;
+  //top: 0;
+  //z-index: 10;
+  h1{
+    color: #CA0026;
     font-weight: 400;
+  }
+  h2{
+    color: #E57C32;
+  }
+}
+
+.sub-header{
+  background-image: url('/images/bg_praxis.jpg');
+  background-position: 0 18rem;
+  background-size: cover;
+  border-bottom: 2px solid #eee;
+  height: 18rem;
+  //margin-top: 20rem;
+}
+
+.menu{
+  background: #CA0026;
+  color: #efefef;
+  margin-bottom: 5rem;
+}
+
+.kosten{
+  th{
+    font-size: 0.95rem;
+    width: 33.33%;
+  }
+}
+.footer{
+  margin-top: 40px;
+  p{
+    font-size: 0.75rem;
   }
 }
