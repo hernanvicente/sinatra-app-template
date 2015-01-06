@@ -10,18 +10,13 @@ html.no-js[lang="en"]
   title Irmgard Brennauer | Heilpraktikerin | Enegetische Verfahren
 
   body
-    .row.full-width.header
-      .small-12.columns.text-center
-        a href="/"
-          img src="/images/logo.png"
-          h1 Irmgard Brennauer | Heilpraktikerin
-          h2 Energetische Verfahren
+    == slim :'_header'
     .row.full-width.menu
       .small-12.columns
         == slim :'_menu'
     == yield
 
-    .row
+    .row.footer
       .small-12.columns
         .row
           .small-6.columns
@@ -29,7 +24,7 @@ html.no-js[lang="en"]
               | © 2014 Irmgard Brennauer | Heilpraktikerin | Enegetische Verfahren
           .small-6.columns
             p.text-right
-              span irmgard.brennauer@gmail.com
+              span <a href="irmgard.brennuer@gmail.com">irmgard.brennauer@gmail.com</a>
 
     == js :libs
     == js :application
