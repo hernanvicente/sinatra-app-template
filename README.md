@@ -3,9 +3,16 @@ Basic Sinatra app template running Foundation with Compass
 
 Run <code>bundle exec compass watch</code> to compile css styles.
 
+=======
+
 TODO
 -------
-
+* Menu
+* Keywords
+* Analytics
+* Heroku setup
+* Use guard/live-reload and review rerun to optimize the development
+  process
 * Review/order the bower components directory (think if if is better to
   put these inside public/)
 * Check: [http://blog.sourcing.io/structuring-sinatra](http://blog.sourcing.io/structuring-sinatra)
