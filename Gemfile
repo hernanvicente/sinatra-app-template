@@ -4,7 +4,6 @@ ruby '2.1.5'
 
 gem 'foundation'
 gem 'haml'
-gem 'rack-livereload'
 gem 'sinatra'
 gem 'sinatra-assetpack'
 gem 'sinatra-contrib'
@@ -21,4 +20,5 @@ gem "compass", "~> 1.0"
 group :development do
   gem 'guard'
   gem 'guard-livereload', require: false
+  gem 'rack-livereload'
 end
