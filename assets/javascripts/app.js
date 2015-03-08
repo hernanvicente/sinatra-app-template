@@ -13,6 +13,3 @@ $(document).foundation({
     offset_by_height: true // whether to offset the destination by the expedition height. Usually you want this to be true, unless your expedition is on the side.
   }
 });
-
-// From https://github.com/Prinzhorn/skrollr
-var s = skrollr.init();
