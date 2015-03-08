@@ -12,7 +12,6 @@ assets do
     '/bower_components/jquery/dist/jquery.js',
     '/bower_components/foundation/js/foundation.js',
     '/bower_components/foundation/js/foundation/foundation.magellan.js',
-    '/bower_components/skrollr/dist/skrollr.min.js'
   ]
 
   js :application, [
