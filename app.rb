@@ -15,3 +15,7 @@ end
 get '/impressum' do
   slim :impressum
 end
+
+get '/google25fe0038c5c303ea.html' do
+  File.read(File.join('public', 'google25fe0038c5c303ea.html'))
+end
