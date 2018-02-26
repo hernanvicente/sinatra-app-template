@@ -1,29 +1,33 @@
 a{
   color: #ca0026;
 }
+
 p{
   text-align: justify;
 }
 
-.full-width{
+.full-width {
   max-width: 100%;
   width: 100%;
 }
 
-.header{
-  background-color: #FFF6E1;
-  height: 20rem;
+.header {
+  background-color: #FFF;
+  height: 25rem;
   padding: 2rem 0 2rem 0;
-  h1{
+  h1 {
     color: #CA0026;
     font-weight: 400;
   }
-  h2{
+  h2 {
     color: #E57C32;
+  }
+  .logo {
+    margin: 1rem 0;
   }
 }
 
-.sub-header{
+.sub-header {
   background-image: url('/images/bg_praxis.jpg');
   background-position: 0 18rem;
   background-size: cover;
@@ -32,19 +36,19 @@ p{
   //margin-top: 20rem;
 }
 
-.menu{
+.menu {
   background: #fff;
   border-bottom: 1px solid #efefef;
   color: #efefef;
   margin-bottom: 5rem;
-  ul{
+  ul {
     display: table;
      margin: 0 auto;
-     li{
-      a{
+     li {
+      a {
         color: #737373;
         font-size: 1.05rem;
-        &:hover{
+        &:hover {
           color: #ca0026;
         }
       }
@@ -52,19 +56,19 @@ p{
   }
 }
 
-.sub-nav li.active a{
+.sub-nav li.active a {
   background-color: #ca0026;
 }
 
-.kosten{
-  th{
+.kosten {
+  th {
     font-size: 0.95rem;
     width: 33.33%;
   }
 }
-.footer{
+.footer {
   margin-top: 40px;
-  p{
+  p {
     font-size: 0.75rem;
   }
 }

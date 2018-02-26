@@ -9064,34 +9064,38 @@ a {
   color: #ca0026;
 }
 
-/* line 4, ../../assets/stylesheets/scss/custom.scss */
+/* line 5, ../../assets/stylesheets/scss/custom.scss */
 p {
   text-align: justify;
 }
 
-/* line 8, ../../assets/stylesheets/scss/custom.scss */
+/* line 9, ../../assets/stylesheets/scss/custom.scss */
 .full-width {
   max-width: 100%;
   width: 100%;
 }
 
-/* line 13, ../../assets/stylesheets/scss/custom.scss */
+/* line 14, ../../assets/stylesheets/scss/custom.scss */
 .header {
-  background-color: #FFF6E1;
-  height: 20rem;
+  background-color: #FFF;
+  height: 25rem;
   padding: 2rem 0 2rem 0;
 }
-/* line 17, ../../assets/stylesheets/scss/custom.scss */
+/* line 18, ../../assets/stylesheets/scss/custom.scss */
 .header h1 {
   color: #CA0026;
   font-weight: 400;
 }
-/* line 21, ../../assets/stylesheets/scss/custom.scss */
+/* line 22, ../../assets/stylesheets/scss/custom.scss */
 .header h2 {
   color: #E57C32;
 }
+/* line 25, ../../assets/stylesheets/scss/custom.scss */
+.header .logo {
+  margin: 1rem 0;
+}
 
-/* line 26, ../../assets/stylesheets/scss/custom.scss */
+/* line 30, ../../assets/stylesheets/scss/custom.scss */
 .sub-header {
   background-image: url("/images/bg_praxis.jpg");
   background-position: 0 18rem;
@@ -9100,44 +9104,44 @@ p {
   height: 18rem;
 }
 
-/* line 35, ../../assets/stylesheets/scss/custom.scss */
+/* line 39, ../../assets/stylesheets/scss/custom.scss */
 .menu {
   background: #fff;
   border-bottom: 1px solid #efefef;
   color: #efefef;
   margin-bottom: 5rem;
 }
-/* line 40, ../../assets/stylesheets/scss/custom.scss */
+/* line 44, ../../assets/stylesheets/scss/custom.scss */
 .menu ul {
   display: table;
   margin: 0 auto;
 }
-/* line 44, ../../assets/stylesheets/scss/custom.scss */
+/* line 48, ../../assets/stylesheets/scss/custom.scss */
 .menu ul li a {
   color: #737373;
   font-size: 1.05rem;
 }
-/* line 47, ../../assets/stylesheets/scss/custom.scss */
+/* line 51, ../../assets/stylesheets/scss/custom.scss */
 .menu ul li a:hover {
   color: #ca0026;
 }
 
-/* line 55, ../../assets/stylesheets/scss/custom.scss */
+/* line 59, ../../assets/stylesheets/scss/custom.scss */
 .sub-nav li.active a {
   background-color: #ca0026;
 }
 
-/* line 60, ../../assets/stylesheets/scss/custom.scss */
+/* line 64, ../../assets/stylesheets/scss/custom.scss */
 .kosten th {
   font-size: 0.95rem;
   width: 33.33%;
 }
 
-/* line 65, ../../assets/stylesheets/scss/custom.scss */
+/* line 69, ../../assets/stylesheets/scss/custom.scss */
 .footer {
   margin-top: 40px;
 }
-/* line 67, ../../assets/stylesheets/scss/custom.scss */
+/* line 71, ../../assets/stylesheets/scss/custom.scss */
 .footer p {
   font-size: 0.75rem;
 }
